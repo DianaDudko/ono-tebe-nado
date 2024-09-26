@@ -265,6 +265,9 @@ a {
   grid-template-columns: 334px auto;
   gap: 25px;
   margin: 148px 24px 180px;
+  width: 1052px;
+  min-height: 595px;
+
 }
 
 .about__logo {
@@ -290,6 +293,7 @@ a {
   font-weight: 700;
   line-height: 47px;
   text-transform: uppercase;
+  white-space: nowrap;
 }
 
 .about__text {
@@ -301,7 +305,6 @@ a {
   font-size: 20px;
   font-weight: 400;
   line-height: 23px;
-  padding-right: 5px;
 }
 
 .footer {
@@ -310,7 +313,7 @@ a {
   justify-content: space-between;
   gap: 185px;
   width: 1000px;
-  height: 98px;
+  min-height: 98px;
   margin: 180px 50px 88px;
 }
 
