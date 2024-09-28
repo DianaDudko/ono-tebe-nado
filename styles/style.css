@@ -160,7 +160,7 @@
 .lots__card-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: start;
   gap: 25px;
   list-style: none;
 }
